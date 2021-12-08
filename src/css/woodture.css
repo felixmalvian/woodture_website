@@ -16,11 +16,15 @@ a:hover {
     color: #573700
 }
 
-.display-5 {
+.display-5, .display-6 {
     /* text-align: center; */
     font-weight: 500;
 }
 
 .display-2 {
     font-weight: 400;
+}
+
+#pager1 {
+    background-color: antiquewhite;
 }
