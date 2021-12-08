@@ -42,8 +42,8 @@
                             Our Products
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Ornaments & Handicraft</a></li>
-                            <li><a class="dropdown-item" href="#">Furniture</a></li>
+                            <li><a class="dropdown-item" href="#our_products">Ornaments & Handicraft</a></li>
+                            <li><a class="dropdown-item" href="#our_products">Furniture</a></li>
                         </ul>
                     </li>
 
@@ -71,21 +71,19 @@
         </div>
 
         <!-- Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="top_carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#top_carousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#top_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#top_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <a href="#">
-                        <img src="src/img/product/Nakas Lengkung.jpg" class="d-block w-50" alt="...">
-                    </a>
+                    <!-- <a href="#"> -->
+                    <img src="src/img/product/Nakas Lengkung.jpg" class="d-block w-50" alt="...">
+                    <!-- </a> -->
                 </div>
 
                 <div class="carousel-item">
@@ -96,13 +94,11 @@
                     <img src="src/img/product/RAK BUKU 3 TAHAP LC.2.jpg" class="d-block w-50" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#top_carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#top_carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -115,8 +111,43 @@
             <div class="row">
 
                 <div class="col-12 col-md">
-                    <img class="img-fluid rounded w-100"
-                        src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.25 PM.jpeg">
+
+                    <!-- About Carousel -->
+                    <div id="about_carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#about_carousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#about_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#about_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#about_carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+            
+                            <div class="carousel-item active">
+                                <img src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.25 PM.jpeg" class="d-block w-100 rounded" alt="...">
+                            </div>
+            
+                            <div class="carousel-item">
+                                <img src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.26 PM (1).jpeg" class="d-block w-100 rounded" alt="...">
+                            </div>
+            
+                            <div class="carousel-item">
+                                <img src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.26 PM (2).jpeg" class="d-block w-100 rounded" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.26 PM.jpeg" class="d-block w-100 rounded" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#about_carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#about_carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md">
@@ -131,8 +162,6 @@
             <div class="row pt-4">
 
                 <div class="col-12 col-md">
-                    <!-- <img class="img-fluid rounded w-100"
-                        src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.25 PM.jpeg"> -->
                     <iframe class="rounded w-100"
                         src="https://www.google.com/maps/d/embed?mid=1l9e8RfqiknHiRIfaXR1XrE11_XW8Z474&ehbc=2E312F"
                         height="480"></iframe>
@@ -140,7 +169,10 @@
 
                 <div class="col-12 col-md">
                     <h4 class="display-6">Our Workshops</h4>
-                    <p class="fs-5">Our workshops are located in Sukabumi and Jepara Regency, Indonesia</p>
+                    <p class="fs-5">
+                        Our workshops are located in Sukabumi and Jepara Regency, Indonesia. Sukabumi workshop is our
+                        base and warehouse, so shipping process will start here.
+                    </p>
                 </div>
 
 
@@ -155,14 +187,241 @@
         <div class="jumbotron jumbotron-fluid py-5" id="our_products">
             <h2 class="display-5 pb-3">Our Products</h2>
 
-            <div class="row">
+
+            <!-- ORNAMENTS AND HANDICRAFTS -->
+
+            <div class="row" id="ornaments_handicraft">
 
                 <div class="col-12 col-md">
-                    <img class="img-fluid rounded w-100"
-                        src="src/img/bg-img/WhatsApp Image 2021-12-06 at 2.55.25 PM.jpeg">
+
+                    <!-- Ornaments Carousel -->
+                    <div id="ornaments_carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="8"
+                                aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="9"
+                                aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="10"
+                                aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="11"
+                                aria-label="Slide 12"></button>
+                            <button type="button" data-bs-target="#ornaments_carousel" data-bs-slide-to="12"
+                                aria-label="Slide 13"></button>
+                        </div>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="src/img/product/ornaments/Abstrak Love Ukiran.png" class="d-block w-75"
+                                    alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/buddhaa.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/bulldog.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/Burung Hantu Duduk.png" class="d-block w-75"
+                                    alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/Burung Hantu Pohon Double.png" class="d-block w-75"
+                                    alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/capkaki3.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/GANESHA.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/happy buddha.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/happy buddhaaa.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/Macan Tatakan.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/pish.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/rabb.png" class="d-block w-75" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/product/ornaments/yuyukangkang.png" class="d-block w-75" alt="...">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#ornaments_carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#ornaments_carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md">
+                    <h4 class="display-6">Ornaments & Handicrafts</h4>
+                    <p class="h4 pt-2">WoodTure is the leading company of wooden furniture and handicraft manufacturer
+                        in
+                        Indonesia</p>
+                    <p class="fs-5">Cooperating with the best local woodworkers in Jepara Regency, which make our
+                        quality is the best in Indonesia and all over the world</p>
+                </div>
+
+            </div>
+
+
+            <!-- FURNITURE -->
+
+            <div class="row pt-4" id="furniture">
+
+                <div class="col-12 col-md">
+
+                    <!-- Furniture Carousel -->
+                    <div id="furniture_carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="8"
+                                aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="9"
+                                aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="10"
+                                aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="11"
+                                aria-label="Slide 12"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="12"
+                                aria-label="Slide 13"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="13"
+                                aria-label="Slide 14"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="14"
+                                aria-label="Slide 15"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="15"
+                                aria-label="Slide 16"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="16"
+                                aria-label="Slide 17"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="17"
+                                aria-label="Slide 18"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="18"
+                                aria-label="Slide 19"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="19"
+                                aria-label="Slide 20"></button>
+                            <button type="button" data-bs-target="#furniture_carousel" data-bs-slide-to="20"
+                                aria-label="Slide 21"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="src/img/product/furniture/20191001_111230.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/20200319_113112.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Bangku Bonsai.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Bangku Makan.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/BANGKU RAK BONSAI.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Bangku Sate Ranting.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/BANGKU SATE.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/lemari terbelah wkwk.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/lemari.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/loep.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/MEJA LIPAT.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Meja Sate.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img
+                                    src="src/img/product/furniture/MEJA SETENGAH LINGKARAN PNT 2 LC 3.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Meja Telpon Bulat Ukir.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/raak.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Rak Parabola Kaki Laci 3.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Rak.png" class="d-block w-75"
+                                    alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Untitled-1-01.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Untitled-3.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/Untitled-8.png"
+                                    class="d-block w-75" alt="..."></div>
+                            <div class="carousel-item"><img src="src/img/product/furniture/vhbjkl_.png"
+                                    class="d-block w-75" alt="..."></div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#furniture_carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#furniture_carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md">
+                    <h4 class="display-6">Furniture</h4>
                     <p class="h4 pt-2">WoodTure is the leading company of wooden furniture and handicraft manufacturer
                         in
                         Indonesia</p>
@@ -205,7 +464,9 @@
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">
                 <div class="col-12 col-md">
-                    <img id="main_logo_home" src="src/img/logo/Logo Woodture.png">
+                    <a href="">
+                        <img id="main_logo_home" src="src/img/logo/Logo Woodture.png">
+                    </a>
                     <small class="d-block mb-3 text-muted">Wooden Furniture & Handicraft</small>
                 </div>
                 <div class="col-6 col-md">
