@@ -28,3 +28,11 @@ a:hover {
 #pager1 {
     background-color: antiquewhite;
 }
+
+.contact {
+    color:#212529;
+}
+
+.contact:hover {
+    color:#0e7ae6;
+}
